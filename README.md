@@ -4,7 +4,7 @@ Repositório oficial para registro de **integridade, versionamento e rastreabili
 
 ## Objetivo
 
-Este repositório permite que alunos, professores e coordenação verifiquem se um arquivo recebido corresponde exatamente à versão oficial publicada.
+Este repositório permite que alunos, professores e coordenação verifiquem se um arquivo recebido corresponde exatamente à versão oficial registrada.
 
 A verificação é feita por meio de **hashes criptográficos SHA-256**.
 
@@ -12,13 +12,19 @@ A verificação é feita por meio de **hashes criptográficos SHA-256**.
 
 Qualquer alteração no conteúdo, páginas, imagens, metadados, compressão, proteção, marca-d'água ou assinatura digital produzirá um novo hash.
 
-## Materiais oficiais
+## Materiais registrados
 
-| Material | Versão | Data | Status |
-|---|---:|---|---|
-| Aula 01 — Origem e Domesticação de Cães | 1.0 | A definir | Em preparação |
+| Material | Arquivo | Versão | Páginas | Status |
+|---|---|---:|---:|---|
+| Material de abertura / Origem e Domesticação de Cães | `Aula_abertura.pdf` | 1.0 | 62 | Registrado |
+| Origem e Domesticação de Cães | `AULA_ 1.pdf` | 1.0 | 62 | Registrado |
+| Origem e Domesticação de Gatos | `AULA_2_SOCIALIZAÇÃO_GATOS.pdf` | 1.0 | 69 | Registrado |
+| Guarda Responsável | `AULA_3_GUARDA_RESPONSÁVEL.pdf` | 1.0 | 32 | Registrado |
+| Ética, Moral e a Construção Histórica da Proteção Animal | `AULA_4 ETICA_ E_LEGISLAÇÃO.pdf` | 1.0 | 80 | Registrado |
 
-Os demais materiais serão adicionados à medida que forem finalizados e publicados.
+**Data do registro atual:** 07/10/2026.
+
+> Observação: `Aula_abertura.pdf` e `AULA_ 1.pdf` possuem o mesmo conteúdo textual extraído e a mesma quantidade de páginas, mas são arquivos binariamente diferentes e, por isso, possuem hashes SHA-256 distintos. Ambos foram preservados no registro.
 
 ## Onde consultar
 
@@ -34,7 +40,7 @@ Os demais materiais serão adicionados à medida que forem finalizados e publica
 4. Gerar o PDF definitivo.
 5. Calcular o SHA-256 do arquivo definitivo.
 6. Registrar o hash neste repositório.
-7. Distribuir o mesmo arquivo aos alunos.
+7. Distribuir exatamente o mesmo arquivo aos alunos.
 8. Preservar o histórico caso uma nova versão seja publicada.
 
 ## Interpretação da verificação
